@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootcss.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" style="background-image: radial-gradient(transparent , transparent, rgb(60, 88, 245));">
+    <header class="fixed-top">
+        <navbar class="navbar-expand-sm navbar-dark">
+            <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://pict.edu/wp-content/uploads/2015/09/PICT-LOGO-FOR-header1.png">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">SPORTS FACILITIES</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Basketball</a>
+                        <a class="dropdown-item" href="#">Cricket</a>
+                        <a class="dropdown-item" href="#">Table Tennis</a>
+                        <a class="dropdown-item" href="#">Chess</a>
+                        <a class="dropdown-item" href="#">Carrom</a>
+                        <a class="dropdown-item" href="#">Badminton</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">SPORTS EVENTS</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Elevate PICT</a>
+                        <a class="dropdown-item" href="karandak.html">PICT Karandak</a>
+                        <a class="dropdown-item" href="sportsday.html">Sports Day</a>
+                        <a class="dropdown-item" href="#">Participation in Sports Events</a>
+                    </div>
+                </li>
+                <li class="nav-item this">
+                    <a class="nav-link" href="exerc.html">EXERCISES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="achieve.html">ACHIEVEMENTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="popover" title="About our Management Team" href="manage.html">MEET FACULTY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://pict.edu/">PICT</a>
+                </li>
+            </ul>
+        </navbar>
+    </header>
+    <div id="hspace">
+        <div class="jumbotron" id="hd">
+            <div id="iser1"></div>
+
+            <center><hr class="horz" color="white">
+            <h1 class="name">Exercises</h1>
+            <hr class="horz" color="white"></center>
+            <div id="iser2"></div>
+
+        </div>
+    </div>
+    <script>
+        var x1 = document.getElementById("iser1");
+        var x2 = document.getElementById("iser2");
+        function ger1(x){
+            x.innerHTML += " <img class='icon' src='armstretch.png'><img class='icon' src='dumbbell.png'><img class='icon' src='skip.png'><img class='icon' src='badl.png'><img class='icon' src='vol.gif'>";
+        }
+        function ger2(x){
+            x.innerHTML += " <img class='icon' src='armstretch.png'><img class='icon' src='dumbbell.png'><img class='icon' src='skip.png'>";
+        }
+        for (i=0; i<5; i++){
+            if(i!=4){
+                ger1(x1);
+                ger1(x2);
+            }
+            else{
+                ger2(x1)
+                ger2(x2)
+            }
+        }
+    </script>
+    <br><br>
+    <div class="subh">
+        <h2><img src="dumbbell.png" class="icon">GYMYNASIUM<hr color="#626b67" style="height: 2.5px;"></h2>
+        <div class="container1">
+            <blockquote class="blockquote">
+                <p>"A healthy and sharp mind is the root mantra of a successful and happy life."</p>
+            </blockquote>
+            <div class="container">
+                <div class="maininfo">
+                    <img src="ab.png" class="bul"> The timings for Gym is 4 pm to 8 pm.<br>
+                    <img src="ab.png" class="bul"> The students make use of the facility on day-to-day basis.<br>
+                    <img src="ab.png" class="bul"> The Gym is made available for students and staff.<br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="subh">
+        <h2><img src="armstretch.png" class="icon">YOGA AND PRANAYAMA<hr color="#626b67" style="height: 2.5px;"></h2>
+        <div class="container1">
+            <div class="container">
+                <div class="maininfo">
+                    “Yoga & Pranayama” is an ancient discipline designed to bring balance and health to the physical, mental, emotional, and spiritual dimensions of the individual. The “International day of yoga” is being celebrated annually on 21st June every year. PICT organizes regular “Yoga & Pranayama” practice at campus for students & staff.
+                </div>
+            </div>
+            <div class="holder">
+                <div class="imgfr">
+                    <img class="frame" src="sp1.jpeg">
+                    <div class="icap">Meh</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="ft">
+                LINK AND STUFF<br>
+                <br><br><br>
+                <a href="https://www.hackerrank.com/anishmanwar24"><img class="icon1" src="hckrnk.png"></a>
+                <a href="https://www.codechef.com/users/kratos_46/"><img class="icon1" src="chef.jpg"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

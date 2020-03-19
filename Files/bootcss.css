@@ -1,0 +1,282 @@
+.container [class^=col-] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: wheat;
+    background-color: #eee;
+}
+
+.row {
+    margin: 5px;
+}
+
+ul.navbar-nav {
+    padding: 20px;
+}
+li.nav-item {
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-right: #8f8f8f solid 0.25px;
+    border-left: #8f8f8f solid 0.25px;
+}
+li.nav-item:hover{
+    background-color: #ff5512;
+    color: #00ff00 !important;
+}
+li.nav-item.this{
+    border-bottom: solid gold 2px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: peru !important;
+    transition: border-bottom 0.5s;
+}
+header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #4c4937;
+}
+.dropdown-menu {
+    background: white;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+a.dropdown-item {
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: grey solid 1px;
+    color: grey;
+}
+a.dropdown-item:hover{
+    background-color: turquoise;
+}
+a.dropdown-item:active{
+    background-color: turquoise;
+}
+#space {
+    margin-top: 193px;
+    border: 10px solid;
+}
+h3.news {
+    background-color: #50aaff;
+    color: honeydew;
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.news.row.col img{
+    width: 10px;
+    height: 10px;
+}
+#hspace {
+    margin-top: 193px;
+}
+
+*{margin:0; padding:0px;}
+
+#wrapper{text-align:center;width:100%;}
+#animated_div{
+    width: 100%;
+    height: 1000%;
+    background: url(2.jpg);
+    background-size:cover;
+    animation: animatebackground 100s linear infinite;}
+
+@keyframes animatebackground {
+	from{background-position: 0 0;}
+	to{background-position: -1000px -1000px;}
+}
+
+#animated_div h1{
+	color: white;
+	padding-top: 100px;
+	font-size: 50px;
+	line-height: 7em;
+}
+ img.trial :hover {
+    color: #000000;
+    cursor: pointer;
+}
+footer {
+    margin-top: 100px;
+    background-color: black;
+}
+.ft {
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.icon1{
+    width: 60px;
+    height: 60px;
+}
+.nv2  {
+    border: solid #cfd3d1;
+}
+li.nav-item.ger {
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-right: #8f8f8f solid 0.25px;
+    border-left: #8f8f8f solid 0.25px;
+}
+li.nav-item.ger:hover{
+    background-color: #12ffdf;
+    color: #00ff00 !important;
+}
+.brder {
+    border-top: solid #8f8f8f;
+}
+.maininfo { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: #f6f5ff00;
+}
+.subh {
+    border: solid #cfd3d1;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+ul.navbar-nav.d4c {
+    padding: 0px;
+}
+.icon {
+    width: 60px;
+    height: 60px;
+}
+h2 {
+    color: #f8610a;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(241, 75, 75, 0.671));
+    text-shadow: #afafaf 2px 3px;
+}
+h2.all {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(111, 252, 76, 0.671));
+    color: rgb(17, 187, 40);
+}
+h3.n1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.sticky-top{
+    margin-top: 10px;
+}
+td{
+    border: solid black 1px;
+}
+td {
+    color: rgba(0, 0, 0, 0.671);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container1 {
+    opacity: 0.25;
+    transition: 0.3s;
+    background-color: silver;
+}
+.container1:hover {
+    opacity: 1;
+    background-color: white;
+}
+.container1:hover .shori{
+    background-image: radial-gradient(transparent, transparent, lime );
+}
+.container1:hover .haiboku{
+    background-image: radial-gradient(transparent, transparent, red );
+}
+.frame {
+    background-color: transparent;
+    transition: 0.4s;
+    align-content: center;
+    height: 700px;
+    width: 800px;
+}
+.frame:hover{
+    background-color: black;
+    opacity: 0.15;
+}
+.container1:hover .table{
+    background-image: linear-gradient(to top, rgba(193, 237, 240, 0.158), rgb(193, 240, 222));
+}
+.imgfr {
+    position: relative;
+    margin-left: 25%;
+    margin-right: 22.25%;
+    margin-top: 50px;
+    background-color: black;
+}
+.icap {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font: caption;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    left: 30%;
+    color: transparent;
+    transition: 0.4s;
+}
+.imgfr:hover .icap{
+    color: white;
+    border-bottom: solid white 1.5px;
+}
+.imgfr:hover hr.ifr{
+    color: white;
+}
+thead, td {
+    border: solid black 1px;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+.table {
+    border: solid black 1px;
+}
+.rr {
+    border: solid silver 0.5px;
+    padding: 7px;
+}
+.pb{
+    border: solid rgb(90, 90, 90) 0.4px;
+}
+h4.res {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.result{
+    padding: 40px;
+    margin-top: 40px;
+    border: solid 1px black;
+    border-radius: 1.5%;
+    background-image: linear-gradient(to top, rgba(193, 237, 240, 0.158), silver);
+}
+h4.win{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(250, 124, 40);
+    text-shadow: 2px 1px black;
+}
+#hd {
+    background-color: #3de09c;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+h1.name {
+    font-size: 53px;
+    border-top: solid white 2px 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+hr.horz{
+    color: whitesmoke;
+    width: 350px;
+    height: 2px;
+    align-self: center;
+}
+.bul{
+    height: 20px;
+    width: 30px;
+}
