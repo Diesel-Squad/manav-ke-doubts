@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootcss.css">
+    <style>#more{display:none}</style>
+
+    <title>Carrom</title>
+</head>
+<body>
+
+<header class="fixed-top">
+        <navbar class="navbar-expand-lg navbar-dark">
+            <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://pict.edu/wp-content/uploads/2015/09/PICT-LOGO-FOR-header1.png">
+            <img src="splogo.png" style="height: 100px; width: 100px; float: right; margin-right: 10px;">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a href="home.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item this">
+                    <a class="nav-link " href="#">SPORTS FACILITIES</a>
+
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">SPORTS EVENTS</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Elevate PICT</a>
+                        <a class="dropdown-item" href="karandak.html">PICT Karandak</a>
+                        <a class="dropdown-item" href="#">Sports Day</a>
+                        <a class="dropdown-item" href="#">Participation in Sports Events</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">EXERCISES</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Gymnasium</a>
+                        <a class="dropdown-item" href="#">Yoga and Pranayam</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="achieve.html">ACHIEVEMENTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="popover" title="About our Management Team" href="manage.html">MEET FACULTY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://pict.edu/">PICT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sign in page.html">Sign In</a>
+                </li>
+            </ul>
+        </navbar>
+    </header>
+<div id ="space" class="container">
+
+        <h1 align="center">CARROM</h1>
+<div class="Firstpart"><h3>Rules</h3> </div><div class="Secondpart">
+    <p>For the very first turn, the player is allowed three attempts to "break" i.e. disturb the central group of counters.<br>
+It doesn't matter which piece the striker hits first and it doesn't matter if the striker hits no pieces.<br>
+If a the striker pockets the Queen and/or one or more pieces of her own colour, the player retrieves the striker and takes another strike.<br>
+If the player pockets no pieces or commits a foul, the turn finishes.</p>
+        </div>
+    <div class="more">+</div>
+    <div class="Firstpart">
+    <h3>Benefits</h3></div>
+    <div class="Secondpart">
+        <p> As the kids play Carrom, various educational skills would be enhanced. Carrom help in increasing the logical reasoning power in children. The children would be playing and having fun at the same time, they would practice skills like counting, reading, visual perception, and eye hand coordination etc. This motivates children to involve themselves in healthy competitions, verbal communication and to focus their attention. People practice different skills while playing.
+
+There are also many health benefits in playing carom, which comes both mentally and physically. Studies have found out that challenging the brain with mentally stimulating leisure activities would largely reduce the risk of getting unhealthy.
+   </p> </div>
+<div class="more">+</div>
+    <div class="text-center">
+        <a href="sign in page.html" class="button">Issue Carrom</a></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script>
+ $(".Secondpart").hide();
+ $(".more").click(function(){
+ if($(this).hasClass("active")){
+ $(this).html("+").removeClass("active");
+ $(this).prev(".Secondpart").slideUp();
+ } else{
+ $(this).html("-").addClass("active");
+ $(this).prev(".Secondpart").slideDown();
+ }
+ })
+
+</script>
+</div>
+</body>
+</html>

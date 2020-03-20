@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootcss.css">
+    <style>#more{display:none}</style>
+
+    <title>Table Tennis</title>
+</head>
+<body>
+
+<header class="fixed-top">
+        <navbar class="navbar-expand-lg navbar-dark">
+            <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://pict.edu/wp-content/uploads/2015/09/PICT-LOGO-FOR-header1.png">
+            <img src="splogo.png" style="height: 100px; width: 100px; float: right; margin-right: 10px;">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item this">
+                    <a class="nav-link " href="#">SPORTS FACILITIES</a>
+
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">SPORTS EVENTS</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Elevate PICT</a>
+                        <a class="dropdown-item" href="karandak.html">PICT Karandak</a>
+                        <a class="dropdown-item" href="#">Sports Day</a>
+                        <a class="dropdown-item" href="#">Participation in Sports Events</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">EXERCISES</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Gymnasium</a>
+                        <a class="dropdown-item" href="#">Yoga and Pranayam</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="achieve.html">ACHIEVEMENTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="popover" title="About our Management Team" href="manage.html">MEET FACULTY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://pict.edu/">PICT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sign in page.html">Sign In</a>
+                </li>
+            </ul>
+        </navbar>
+    </header>
+<div id ="space" class="container">
+
+        <h1 align="center">TABLE TENNIS</h1>
+    <p>Table tennis, also known as ping-pong, is a sport in which two or four players hit a lightweight ball back and forth across a table using small rackets.</p>
+<div class="Firstpart"><h3>Rules</h3> </div><div class="Secondpart">
+    <p>A point is scored by the player for any of several results of the rally:<br>
+
+The opponent fails to make a correct service or return.<br>
+After making a service or a return, the ball touches anything other than the net assembly before being struck by the opponent.<br>
+The ball passes over the player's court or beyond their end line without touching their court, after being struck by the opponent.<br>
+The opponent obstructs the ball.<br>
+The opponent strikes the ball twice successively. Note that the hand that is holding the racket counts as part of the racket and that making a good return off one's hand or fingers is allowed. It is not a fault if the ball accidentally hits one's hand or fingers and then subsequently hits the racket.<br>
+The opponent strikes the ball with a side of the racket blade whose surface is not covered with rubber.<br>
+The opponent moves the playing surface or touches the net assembly.<br>
+The opponent's free hand touches the playing surface.<br>
+As a receiver under the expedite system, completing 13 returns in a rally.<br>
+The opponent that has been warned by the umpire commits a second offense in the same individual match or team match. If the third offence happens, 2 points will be given to the player. If the individual match or the team match has not ended, any unused penalty points can be transferred to the next game of that match.
+A game shall be won by the player first scoring 11 points unless both players score 10 points, when the game shall be won by the first player subsequently gaining a lead of 2 points. A match shall consist of the best of any odd number of games.[41] In competition play, matches are typically best of five or seven games.</p>
+        </div>
+    <div class="more">+</div>
+    <div class="Firstpart">
+    <h3>Benefits</h3></div>
+    <div class="Secondpart">
+        <p>Great physical exercise yet gentle on the body.<br>
+        Improved Reflexes, Balance and Coordination.<br>
+        Table Tennis is The World’s Best Brain Sport! </p>
+    </div>
+<div class="more">+</div>
+    <div class="text-center">
+        <a href="sign in page.html" class="button">Issue</a></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script>
+ $(".Secondpart").hide();
+ $(".more").click(function(){
+ if($(this).hasClass("active")){
+ $(this).html("+").removeClass("active");
+ $(this).prev(".Secondpart").slideUp();
+ } else{
+ $(this).html("-").addClass("active");
+ $(this).prev(".Secondpart").slideDown();
+ }
+ })
+
+</script>
+</div>
+</body>
+</html>
