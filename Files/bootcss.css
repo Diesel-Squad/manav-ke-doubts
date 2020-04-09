@@ -280,3 +280,32 @@ hr.horz{
     height: 20px;
     width: 30px;
 }
+.sub1{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.head1{
+    text-align: center;
+    text-shadow: gray 2px 2.5px;
+}
+.container2{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.plus{
+    float: right;
+}
+.plus:active{
+    animation: spin 0.5s linear;
+}
+@keyframes spin { 100% {transform:rotate(360deg); } }
+.info1{
+    border: solid black 2px;
+}
+.symbol {
+    height: 30px;
+    width: 40px;
+}
